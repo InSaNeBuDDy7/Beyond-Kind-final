@@ -1,0 +1,42 @@
+/* Add styles to the payment gateway form */
+form {
+    width: 500px;
+    margin: auto;
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+  }
+  
+  /* Style the input fields */
+  input[type="text"], input[type="email"], input[type="password"], select {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+  }
+  
+  /* Style the submit button */
+  input[type="submit"] {
+    width: 50%;
+    padding: 10px;
+    margin: 20px 0;
+    border-radius: 5px;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+  }
+  
+  /* Add hover effect to the submit button */
+  input[type="submit"]:hover {
+    background-color: #3e8e41;
+  }
+  
+  /* Add styles to the error messages */
+  .error {
+    color: red;
+    font-size: 12px;
+  }
+  
